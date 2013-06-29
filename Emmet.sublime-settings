@@ -1,0 +1,9 @@
+{
+  "snippets": {
+    "html": {
+        "snippets": {
+          "html:5": "<!doctype html>\n<html lang=\"ja\">\n<head>\n\t<meta charset=\"${charset}\">\n\t<title>${1:Document}</title>\n\t<script src=\"http://code.jquery.com/jquery-1.9.1.min.js\"></script>\n</head>\n<body>\n\t${child}${2}\n\t<script type=\"text/javascript\">\n\t</script>\n</body>\n</html>"
+        }
+      }
+  }
+}
