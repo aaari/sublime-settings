@@ -1,32 +1,80 @@
 {
-	"auto_indent": true,
-	"bold_folder_labels": true,
-	"caret_style": "smooth",
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-	"detect_indentation": true,
-	"detect_slow_plugins": true,
-	"disable_formatted_linebreak": true,
-	"disabled_single_snippet_for_scopes": "",
-	"draw_white_space": "all",
-	"enable_emmet_keymap": false,
-	"find_selected_text": true,
-	"font_face": "Ricty Bold",
-	"font_size": 14,
-	"gutter": true,
-	"highlight_line": true,
-	"ignored_packages":
-	[
-		"Vintage",
-		"Theme - Phoenix"
-	],
-	"indent_to_brancket": true,
-	"lineHighlight": "FF0000",
-	"match_brackets_angle": true,
-	"open_files_in_new_window": false,
-	"shift_tab_unindent": true,
-	"smart_indent": true,
-	"tab_size": 4,
-	"translate_tab_to_spaces": true,
-	"use_tab_stops": true,
-	"word_wrap": true
+    "auto_indent": true,
+    "bold_folder_labels": true,
+
+    // カーソルのスタイル smooth,phase,blink,wide,solid
+    "caret_style": "wide",
+    "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+
+    // デフォルトのエンコーディング
+    "defalut_encoding": "UTF-8",
+
+    // ファイル読み込み時に自動的に translate_tabs_spacesとtab_sizeを設定するか
+    "detect_indentation": true,
+    "detect_slow_plugins": true,
+    "disable_formatted_linebreak": true,
+    "disabled_single_snippet_for_scopes": "",
+
+    // ミニマップの線を描画する
+    "draw_minimap_border": true,
+
+    // スペースの描画
+    "draw_white_space": "all",
+
+    // インデントの補助線の描画
+    "draw_indent_guides": true,
+    "enable_emmet_keymap": false,
+
+    // 選択文字を自動で検索語に指定->効いてないっぽい?
+    "find_selected_text": true,
+    "font_face": "Ricty Bold",
+    "font_size": 14,
+
+    // サイドバーから除外するフォルダ、ファイルの設定
+    "folder_exclude_patterns": [],
+    "file_exclude_patterns": [".DS_Store"],
+
+    "gutter": true,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+        "Vintage",
+        "Theme - Phoenix"
+    ],
+    // 括弧までインデント
+    "indent_to_brancket": true,
+    "lineHighlight": "FF0000",
+
+    // 対応する括弧にアンダーラインを引く
+    "match_brackets": true,
+
+    // 対応する山括弧<>の強調
+    "match_brackets_angle": true,
+
+    // 同じ単語の強調
+    "match_selection": true,
+
+    // ファイルを開く際に新しいウィンドウで開くか(OS Xのみ有効)
+    "open_files_in_new_window": false,
+
+    // ファイル最終行を越えたスクロール
+    "scroll_past_end": true,
+
+    // どこでもshift+tabでインデント削除
+    "shift_tab_unindent": true,
+    "smart_indent": true,
+
+    // タイトルバーにファイルのフルパス表示
+    "show_full_path": true,
+
+    "tab_size": 4,
+
+    // タブをスペースに変換
+    "translate_tabs_to_spaces": true,
+
+    // translate_tabs_to_spaces: trueのとき、Deleteキーを押すとtab_size分スペース削除
+    "use_tab_stops": true,
+
+    // テキスト折り返し: autoにすると、プログラムの場合は折り返さない
+    "word_wrap": true
 }

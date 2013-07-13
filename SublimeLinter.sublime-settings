@@ -25,7 +25,7 @@
         "forin": true, // for inループ内で常にオブジェクトのプロパティが
                        // prototypeを通じて継承されたものであるかどうかのチェックするように強制
         "immed": true, // 括弧で囲まれていない関数の即時実行を禁止
-        "indent": 2,  // タブ幅を指定します
+//        "indent": 4,  // タブ幅を指定します
         "latedef": true, // 変数を定義する前に使うのを禁止
         "newcap": true, // コンストラクタ関数の1文字目を大文字にすることを強制
         "noarg": true, // arguments.caller と arguments.calleeの使用を禁止
@@ -34,7 +34,7 @@
         "plusplus": false, // ++と--の使用を禁止します
         // "quotmark": true, // 引用符が統一されるようにします｡ 
         "regexp": true, // 正規表現で安全でない . の使用を禁止
-        "undef": true,     //明示的に宣言されていない変数の使用を禁止
+        "undef": false,     //明示的に宣言されていない変数の使用を禁止 ->やめ
         "unused": true,  // 変数が利用されていない場合に警告
         "strict": false,  // EcmaScript5のstrict modeで実行可能なコードを強制
         "trailing": true, // 行末の空白を禁止します
