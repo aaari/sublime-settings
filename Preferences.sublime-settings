@@ -27,7 +27,9 @@
 
     // 選択文字を自動で検索語に指定->効いてないっぽい?
     "find_selected_text": true,
-    "font_face": "Ricty Bold",
+    //"font_face": "Ricty Bold",
+    "font_face": "Ricty",
+    //"font_face": "Source Code Pro",
     "font_size": 14,
 
     // サイドバーから除外するフォルダ、ファイルの設定
@@ -67,7 +69,7 @@
     // タイトルバーにファイルのフルパス表示
     "show_full_path": true,
 
-    "tab_size": 4,
+    "tab_size": 2,
 
     // タブをスペースに変換
     "translate_tabs_to_spaces": true,
@@ -76,5 +78,6 @@
     "use_tab_stops": true,
 
     // テキスト折り返し: autoにすると、プログラムの場合は折り返さない
-    "word_wrap": true
+    //"word_wrap": true
+    "word_wrap": "auto"
 }
