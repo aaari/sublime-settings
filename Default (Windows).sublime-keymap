@@ -1,0 +1,46 @@
+[
+{"keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser"}},
+{
+	"keys": ["ctrl+x", "1"],
+	"command": "set_layout",
+	"args": {
+		"cols": [0.0, 1.0],
+		"rows": [0.0, 1.0, 1.0],
+		"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+	}
+},
+{
+	"keys": ["ctrl+x", "2"],
+	"command": "set_layout",
+	"args":	{
+		"cols": [0.0, 1.0],
+		"rows": [0.0, 0.5, 1.0],
+		"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+	}
+},
+{
+	"keys": ["ctrl+2"],
+	"command": "set_layout",
+	"args":	{
+		"cols": [0.0, 1.0],
+		"rows": [0.0, 0.5, 1.0],
+		"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+	}
+},
+{
+	"keys": ["ctrl+1"],
+	"command": "set_layout",
+	"args": {
+		"cols": [0.0, 1.0],
+		"rows": [0.0, 1.0, 1.0],
+		"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+	}
+},
+{ "keys": ["ctrl+s"], "command": "show_panel", "args": {"panel": "find"} },
+{ "keys": ["alt+s"], "command": "save" },
+{ "keys": ["alt+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+// IME on/off is set  in ATOK
+{ "keys": ["ctrl+o"], "command": "noop" },
+
+{ "keys": ["ctrl+alt+o"], "command": "prompt_open_file" }
+]
